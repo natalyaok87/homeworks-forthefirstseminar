@@ -9,6 +9,60 @@ if (numberA > numberB)
 {
     max = numberA;
     min = numberB;
+
+
+
+
+int numberA = new Random() .Next(-15, 11);
+Console.Write($"{numberA, 3} ");
+int numberB = new Random() .Next(-15, 11);
+Console.Write($"{numberB, 3} ");
+int numberC = new Random() .Next(-15, 11);
+Console.WriteLine($"{numberC, 3} ");
+int max = 0;
+
+if (numberA > numberB)
+{
+    if (numberA > numberC)
+    {
+        max = numberA;
+    }
+    else
+    {
+        max = numberC;
+    }
+}
+else
+{
+    if (numberB > numberC)
+    {
+        max = numberB;
+    }
+    else
+    {
+        max = numberC;
+    }
+
+}
+Console.WriteLine(max);
+
+
+
+int N = new Random() .Next(1,20);
+int M = 1;
+Console.WriteLine(N);
+while (M < N)
+{
+    if (M % 2 ==0)
+    Console.WriteLine($"{M,2} ");
+    M = M + 1;
+}
+
+
+
+
+
+
     
 }
 else
