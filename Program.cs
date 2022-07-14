@@ -1,4 +1,5 @@
-﻿int numberA = new Random() .Next(-10, 11);
+﻿задача 2
+int numberA = new Random() .Next(-10, 11);
 Console.WriteLine(numberA);
 int numberB = new Random() .Next(-10, 11);
 Console.WriteLine(numberB);
@@ -11,7 +12,7 @@ if (numberA > numberB)
     min = numberB;
 
 
-
+задача 4
 
 int numberA = new Random() .Next(-15, 11);
 Console.Write($"{numberA, 3} ");
@@ -46,7 +47,7 @@ else
 }
 Console.WriteLine(max);
 
-
+задача 8
 
 int N = new Random() .Next(1,20);
 int M = 1;
